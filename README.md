@@ -1,11 +1,10 @@
-# Devm-Camera
+# Freecam Screenshot Script
+
 This FiveM script allows players to activate a free camera mode, capture screenshots, and automatically upload them to a specified webhook using the FiveManage API Instead Of Having To Download The Picture And Upload It Manually. The script includes configurable options for permissions, API keys, and webhook URLs.
 
 ## Dependencies
 
 This script relies on several dependencies to function correctly. Below is a list of these dependencies, what they do, and where you can find them.
-
-Find about DevM here https://discord.gg/devm
 
 ### 1. **[ox_lib](https://github.com/overextended/ox_lib)**
    - **What it does:** `ox_lib` provides a collection of utilities and functions that enhance script development for FiveM servers. In this script, it's used for the UI, notifications, and command handling.
@@ -26,12 +25,6 @@ Here is how you can configure the script:
 ```lua
 Config = {}
 
--- API Key for FiveManage
-Config.ApiKey = "YOUR_API_KEY_HERE"
-
--- Webhook URL for Discord
-Config.WebhookUrl = "YOUR_WEBHOOK_URL_HERE"
-
 -- Freecam Settings
 Config.Speed = 1.0             -- Default speed of the freecam
 Config.MaxDistance = 100.0     -- Maximum distance the freecam can travel
@@ -40,8 +33,23 @@ Config.Precision = 2.0         -- Precision for camera rotation
 -- Permissions
 Config.Permissions = true
 
+```
+
+### **`server_config.lua`**
+
+Here is how you can configure the script:
+
+```lua
+SvConfig = {}
+
+-- API Key for FiveManage
+SvConfig.ApiKey = "YOUR_API_KEY_HERE"
+
+-- Webhook URL for Discord
+SvConfig.WebhookUrl = "YOUR_WEBHOOK_URL_HERE"
+
 -- List of allowed Steam hexes
-Config.AllowedSteamHexes = {
+SvConfig.AllowedSteamHexes = {
     "steam:000000000000000",
     "steam:000000000000000"
 }
