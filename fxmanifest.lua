@@ -17,7 +17,8 @@ client_scripts {
 
 server_scripts {
     'server/server.lua',
-    'server/permissions.lua'
+    'server/permissions.lua',
+    'server/server_config.lua'
 } 
 
 dependencies {
