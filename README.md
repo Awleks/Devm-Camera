@@ -5,6 +5,8 @@ This FiveM script allows players to activate a free camera mode, capture screens
 
 This script relies on several dependencies to function correctly. Below is a list of these dependencies, what they do, and where you can find them.
 
+Find about DevM here https://discord.gg/devm
+
 ### 1. **[ox_lib](https://github.com/overextended/ox_lib)**
    - **What it does:** `ox_lib` provides a collection of utilities and functions that enhance script development for FiveM servers. In this script, it's used for the UI, notifications, and command handling.
    - **Installation:** Follow the instructions on the [ox_lib GitHub page](https://github.com/overextended/ox_lib) to download and install the resource.
