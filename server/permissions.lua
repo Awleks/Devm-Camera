@@ -9,7 +9,7 @@ local function isPlayerWhitelisted(playerId)
         end
     end
 
-    for _, allowedHex in ipairs(Config.AllowedSteamHexes) do
+    for _, allowedHex in ipairs(SvConfig.AllowedSteamHexes) do
         if steamHex == allowedHex then
             return true
         end
