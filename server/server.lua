@@ -8,7 +8,7 @@ end)
 RegisterNetEvent('devm:rapikey')
 AddEventHandler('devm:rapikey', function()
     local src = source
-    TriggerClientEvent('devm:apikey', src, Config.ApiKey)
+    TriggerClientEvent('devm:apikey', src, SvConfig.ApiKey)
 end)
 
 RegisterNetEvent('devm:webhook')
@@ -30,7 +30,7 @@ AddEventHandler('devm:webhook', function(screenshotUrl)
         embeds = embedContent
     }
 
-    PerformHttpRequest(Config.WebhookUrl, function(err, text, headers)
+    PerformHttpRequest(SvConfig.WebhookUrl, function(err, text, headers)
     end, 'POST', json.encode(webhookPayload), {['Content-Type'] = 'application/json'})
 end)
 
