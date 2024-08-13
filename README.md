@@ -1,6 +1,8 @@
-# Freecam Screenshot Script
+# Devm Cinematic Camera
 
 This FiveM script allows players to activate a free camera mode, capture screenshots, and automatically upload them to a specified webhook using the FiveManage API Instead Of Having To Download The Picture And Upload It Manually. The script includes configurable options for permissions, API keys, and webhook URLs.
+
+Find us here https://discord.gg/devm
 
 ## Dependencies
 
