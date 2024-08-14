@@ -16,6 +16,10 @@ This script relies on several dependencies to function correctly. Below is a lis
    - **What it does:** This resource allows scripts to capture and upload screenshots directly from the client or server. It's used in this script to take screenshots in freecam mode and upload them to a specified URL.
    - **Installation:** Download and install the resource from the [screenshot-basic GitHub page](https://github.com/citizenfx/screenshot-basic).
 
+### 3. **[FiveManage API](https://www.fivemanage.com)**
+   - **What it does:** The FiveManage API is used to upload screenshots taken in-game and retrieve the URL, streamlining the process of sharing screenshots.
+   - **Installation:** Sign up for an account and obtain an API key from the [FiveManage website](https://www.fivemanage.com).
+
 ## Configuration
 
 To set up the script for your server, you'll need to configure your API keys and webhook URL. These are critical for uploading screenshots to the desired destination.
@@ -56,3 +60,15 @@ SvConfig.AllowedSteamHexes = {
     "steam:000000000000000"
 }
 ```
+
+Future Updates
+
+Stay tuned for more features and improvements in upcoming versions.
+
+License
+
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+Contributing
+
+We welcome contributions! Feel free to fork the repository, make changes, and submit a pull request.
