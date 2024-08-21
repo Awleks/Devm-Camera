@@ -1,3 +1,5 @@
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FAwleks%2FDevm-Camera&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+
 # Devm Cinematic Camera
 
 This FiveM script allows players to activate a free camera mode, capture screenshots, and automatically upload them to a specified webhook using the FiveManage API Instead Of Having To Download The Picture And Upload It Manually. The script includes configurable options for permissions, API keys, and webhook URLs.
